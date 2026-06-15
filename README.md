@@ -1,93 +1,64 @@
-# JavaScript Basics — Lab Exam Notes
+<div align="center">
 
-Interactive, single-file study notes for JavaScript fundamentals, with live practice games and working demos of **React** and **Three.js**. Built for lab-exam prep: read a concept, then immediately practise it in the same page.
+# 🟣 JavaScript Basics — Lab Exam Notes 🔴
 
-Everything lives in one `javascript-basics-notes.html` file — no build step, no install. Open it in a browser and it works.
+### Interactive single-file study notes with live games, React & Three.js demos
 
-## Features
+*Read a concept, then practise it right on the page — no install, no build step.*
 
-- **Core JavaScript notes** — variables, data types, operators, conditions, loops, functions, arrays, objects, and the DOM, each with colour-coded examples and an "exam tip" for the common traps.
-- **React section** — components, JSX, props, `useState`, and list rendering, plus a **live counter component** running in the page.
-- **Three.js section** — scene / camera / renderer, meshes, and the animation loop, plus a **live 3D scene you can drag to rotate** and reshape.
-- **Practice games & activities:**
-  - Predict-the-Output quiz (scored, with explanations)
-  - React Quick-Check quiz
-  - Type Detective (`typeof` explorer)
-  - Loop Builder (step-through visualiser)
-  - Live JavaScript playground (runs your code, shows errors)
-  - Flip flashcards for last-minute revision
-- **Design** — purple-and-red theme, responsive down to mobile, keyboard-accessible, and respects reduced-motion settings.
+<br>
 
-## Getting started
+![HTML5](https://img.shields.io/badge/HTML5-9d4edd?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-c2255c?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ef2d56?style=for-the-badge&logo=javascript&logoColor=white)
+![React](https://img.shields.io/badge/React-9d4edd?style=for-the-badge&logo=react&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-ef2d56?style=for-the-badge&logo=threedotjs&logoColor=white)
 
-### Option 1 — just open it
-Download the repo and double-click `javascript-basics-notes.html`. That's it.
+<br>
 
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
-```
+### [🚀 View the live site](https://YOUR-USERNAME.github.io/YOUR-REPO/)
 
-Then open the HTML file in any modern browser.
-
-### Option 2 — publish it with GitHub Pages
-So anyone can view it at a live URL:
-
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Source**, choose the `main` branch and the `/ (root)` folder, then **Save**.
-4. After a minute your site is live at `https://YOUR-USERNAME.github.io/YOUR-REPO/javascript-basics-notes.html`.
-
-> Tip: rename the file to `index.html` if you want it served at the root URL instead.
-
-## Internet requirement
-
-The page works **fully offline** — all notes, quizzes, the JavaScript playground, and flashcards run with no connection.
-
-Three things load from a CDN and need internet the **first time** you open the page:
-
-- Google Fonts (Space Grotesk, Inter, JetBrains Mono)
-- React, ReactDOM, and Babel — for the live React counter
-- Three.js — for the live 3D scene
-
-If you're offline, those two live demos show a short "needs internet" message; everything else still works.
-
-## Built with
-
-- Plain HTML, CSS, and JavaScript (no framework, no bundler)
-- [React 18](https://react.dev/) via CDN — live component demo
-- [Three.js r128](https://threejs.org/) via CDN — live 3D scene
-- [Babel Standalone](https://babeljs.io/docs/babel-standalone) — to run JSX in the browser
-- Google Fonts
-
-## Project structure
-
-```
-.
-├── javascript-basics-notes.html   # the whole app — notes, games, and demos
-└── README.md
-```
-
-## Topics covered
-
-| # | Section | What you'll learn |
-|---|---------|-------------------|
-| 01 | Variables | `let`, `const`, `var` |
-| 02 | Data Types | numbers, strings, booleans, `typeof` |
-| 03 | Operators | maths, comparison, logic |
-| 04 | Conditions | `if` / `else`, ternary |
-| 05 | Loops | `for`, `while` |
-| 06 | Functions | parameters, `return`, arrow functions |
-| 07 | Arrays | indexing, `push`/`pop`, looping |
-| 08 | Objects | key–value pairs, dot vs bracket access |
-| 09 | DOM | selecting elements, events |
-| 10 | React | components, props, state, lists |
-| 11 | Three.js | scene, camera, renderer, meshes, animation |
-
-## License
-
-Free to use and modify for studying. Add a license file (for example MIT) if you want to make reuse terms explicit.
+</div>
 
 ---
 
-Made for a JavaScript lab exam. Good luck — go pass it.
+## ✨ Features
+
+- 📚 **JavaScript notes** — variables, data types, operators, conditions, loops, functions, arrays, objects, and the DOM, each with examples and exam tips
+- ⚛️ **React** — components, props, `useState`, and lists, plus a **live counter component**
+- 🧊 **Three.js** — scene, camera, renderer, meshes, and animation, plus a **live 3D scene you can drag to rotate**
+- 🎮 **Practice** — output-prediction quiz, React quiz, `typeof` explorer, loop visualiser, a live code playground, and flashcards
+- 🎨 Purple-and-red theme, fully responsive, and keyboard-accessible
+
+## 🚀 Run it
+
+Open `index.html` in any browser — that's it.
+
+To publish on **GitHub Pages**:
+
+1. Push the repo to GitHub
+2. Go to **Settings → Pages**
+3. Set the source to the `main` branch and `/ (root)` folder, then **Save**
+
+> 💡 The file **must** be named `index.html` to load as the homepage — otherwise Pages shows this README instead.
+
+## 🌐 Offline note
+
+The page works **fully offline**. Only the live **React counter** and **3D scene** need internet (they load React and Three.js from a CDN) — offline, they show a short message while everything else keeps working.
+
+## 🛠️ Built with
+
+| Tech | Used for |
+|------|----------|
+| HTML / CSS / JavaScript | The whole app — notes, games, playground |
+| React 18 *(CDN)* | Live component demo |
+| Three.js r128 *(CDN)* | Live 3D scene |
+| Babel *(CDN)* | Running JSX in the browser |
+
+<div align="center">
+
+---
+
+Made for a JavaScript lab exam — good luck, go pass it 💜❤️
+
+</div>
