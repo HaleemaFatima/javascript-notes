@@ -16,7 +16,7 @@
 
 <br>
 
-### [🚀 View the live site](https://YOUR-USERNAME.github.io/YOUR-REPO/)
+### [🚀 View the live site](https://haleemafatima.github.io/javascript-notes/)
 
 </div>
 
